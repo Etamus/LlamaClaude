@@ -1,6 +1,6 @@
 # LlamaClaude
 
-O LlamaClaude é uma adaptação técnica do OpenClaude (v0.2.3), reestruturada para transformar o agente de código original em uma solução de inferência totalmente local. Enquanto o projeto base contava com suporte a provedores de nuvem, o LlamaClaude removeu integralmente qualquer dependência de APIs externas. A arquitetura foi adaptada para rodar exclusivamente através do motor llama.cpp, utilizando modelos no formato GGUF para garantir máxima performance e soberania de dados. Esta versão mantém a estrutura e as funcionalidades de agente de código do OpenClaude v0.2.3, mas redefine o seu funcionamento central: agora, todo o processamento ocorre offline no seu hardware, eliminando custos, latência de rede e riscos de privacidade.
+O LlamaClaude é uma adaptação técnica do OpenClaude (v0.1.8), reestruturada para transformar o agente de código original em uma solução de inferência totalmente local. Enquanto o projeto base contava com suporte a provedores de nuvem, o LlamaClaude removeu integralmente qualquer dependência de APIs externas. A arquitetura foi adaptada para rodar exclusivamente através do motor llama.cpp, utilizando modelos no formato GGUF para garantir máxima performance e soberania de dados. Esta versão mantém a estrutura e as funcionalidades de agente de código do OpenClaude v0.2.3, mas redefine o seu funcionamento central: agora, todo o processamento ocorre offline no seu hardware, eliminando custos, latência de rede e riscos de privacidade.
 
 ---
 
@@ -10,7 +10,7 @@ O LlamaClaude é uma adaptação técnica do OpenClaude (v0.2.3), reestruturada 
 
 ## Sobre o Projeto
 
-Este projeto é uma CLI de agente de código totalmente open-source, baseada no OpenClaude v0.2.3, mas **não utiliza mais nenhuma API externa**. Toda a inferência é feita localmente, utilizando apenas o [llama.cpp](https://github.com/ggerganov/llama.cpp) e modelos no formato GGUF.
+Este projeto é uma CLI de agente de código totalmente open-source, baseada no OpenClaude v0.1.8, mas **não utiliza mais nenhuma API externa**. Toda a inferência é feita localmente, utilizando apenas o [llama.cpp](https://github.com/ggerganov/llama.cpp) e modelos no formato GGUF.
 
 - Não há integração com OpenAI, Gemini, Ollama, Codex, ou qualquer outro provedor externo.
 - Nenhuma chave de API é necessária.
