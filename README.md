@@ -20,7 +20,7 @@ Este projeto é uma CLI de agente de código totalmente open-source, baseada no 
 ## Instalação
 
 1. **Pré-requisitos:**
-   - Tenha o [llama.cpp](https://github.com/ggerganov/llama.cpp) instalado no projeto.
+   - [llama.cpp](https://github.com/ggerganov/llama.cpp) instalado na pasta do projeto.
    - Baixe um modelo GGUF de sua preferência e coloque na pasta `models/`.
 
 2. **Instale as dependências do projeto:**
