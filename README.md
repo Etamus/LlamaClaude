@@ -1,6 +1,6 @@
-# LlamaClaude
+# Claudecpp
 
-O LlamaClaude é uma adaptação técnica do OpenClaude (v0.1.8), reestruturada para transformar o agente de código original em uma solução de inferência totalmente local. Enquanto o projeto base contava com suporte a provedores de nuvem, o LlamaClaude removeu integralmente qualquer dependência de APIs externas. A arquitetura foi adaptada para rodar exclusivamente através do motor llama.cpp, utilizando modelos no formato GGUF para garantir máxima performance e soberania de dados. Esta versão mantém a estrutura e as funcionalidades de agente de código do OpenClaude v0.1.8, mas redefine o seu funcionamento central: agora, todo o processamento ocorre offline no seu hardware, eliminando custos, latência de rede e riscos de privacidade.
+O Claudecpp é uma adaptação técnica do OpenClaude (v0.1.8), reestruturada para transformar o agente de código original em uma solução de inferência totalmente local. Enquanto o projeto base contava com suporte a provedores de nuvem, o LlamaClaude removeu integralmente qualquer dependência de APIs externas. A arquitetura foi adaptada para rodar exclusivamente através do motor llama.cpp, utilizando modelos no formato GGUF para garantir máxima performance e soberania de dados. Esta versão mantém a estrutura e as funcionalidades de agente de código do OpenClaude v0.1.8, mas redefine o seu funcionamento central: agora, todo o processamento ocorre offline no seu hardware, eliminando custos, latência de rede e riscos de privacidade.
 
 ---
 
